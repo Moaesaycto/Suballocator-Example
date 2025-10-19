@@ -1,0 +1,22 @@
+a = allocate 100
+b = allocate 100
+c = allocate 100
+d = allocate 100
+e = allocate 100
+f = allocate 100
+g = allocate 100
+h = allocate 100
+i = allocate 100
+j = allocate 100
+k = allocate 100
+free b
+free d
+free f
+free h
+free j
+l = allocate 100
+m = allocate 101
+n = allocate 100
+o = allocate 101
+p = allocate 100
+q = allocate 101
